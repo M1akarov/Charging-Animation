@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charging Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="i-phone-frame">
+            <img src="./cam.png" alt="camera" class="camera">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" class="circle-svg">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#ff0032" />
+                        <stop offset="100%" stop-color="#ff8c00" />
+                    </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle1" />
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle2" />
+            </svg>
+            <img src="./flash.png" alt="flash" class="flash">
+            <div id="number">
+                0%
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
